@@ -1,17 +1,67 @@
-# shopping
+# Shopping 🛒 — Shopping App
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=flat&logo=dart&logoColor=white)
+![State Management](https://img.shields.io/badge/State-BLoC-4CAF50)
+![Networking](https://img.shields.io/badge/Networking-Dio-blue)
+![License](https://img.shields.io/badge/License-Unlicensed-lightgrey)
+
+A shopping app built with Flutter. It loads products from a REST API and uses BLoC for state management.
+
+---
+
+## 📱 Features
+
+| Area | Description |
+|---|---|
+| **Products** | Fetch and display products from a REST API |
+| **State Management** | Predictable UI states (loading, success, error) with BLoC |
+| **Networking** | API requests handled with Dio |
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|---|---|
+| Framework | Flutter (Dart SDK `>=3.0.0 <4.0.0`) |
+| State Management | `flutter_bloc` |
+| Networking | `dio` |
+| UI | `cupertino_icons`, Material Design |
+
+## 📂 Project Structure
+
+<details>
+<summary>View folder structure</summary>
+
+```
+shopping/
+├── android/        # Android platform code
+├── ios/            # iOS platform code
+├── web/            # Web platform code
+├── lib/            # Application source code
+├── test/           # Unit tests
+└── pubspec.yaml    # Dependencies & configuration
+```
+
+</details>
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+# Clone the repository
+git clone https://github.com/22ousefmostafa/shopping.git
+cd shopping
 
-A few resources to get you started if this is your first Flutter project:
+# Install dependencies
+flutter pub get
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+# Run the app
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+
+Built by [Youssef Mostafa](https://github.com/22ousefmostafa).
+
+## License
+
+This project is currently unlicensed.
